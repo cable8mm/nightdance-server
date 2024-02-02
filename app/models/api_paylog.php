@@ -1,7 +1,8 @@
 <?php
-class ApiPaylog extends AppModel {
 
-	var $name = 'ApiPaylog';
-	var $order = 'ApiPaylog.created DESC';
+class ApiPaylog extends AppModel
+{
+    public $name = 'ApiPaylog';
+
+    public $order = 'ApiPaylog.created DESC';
 }
-?>

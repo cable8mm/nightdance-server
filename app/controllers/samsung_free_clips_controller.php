@@ -1,7 +1,8 @@
 <?php
-class SamsungFreeClipsController extends AppController {
 
-	var $name = 'SamsungFreeClips';
-	var $scaffold;
+class SamsungFreeClipsController extends AppController
+{
+    public $name = 'SamsungFreeClips';
+
+    public $scaffold;
 }
-?>

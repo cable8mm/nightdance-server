@@ -1,7 +1,8 @@
 <?php
-class MonthSale extends AppModel {
 
-	var $name = 'MonthSale';
-	var $order = 'MonthSale.id DESC';
+class MonthSale extends AppModel
+{
+    public $name = 'MonthSale';
+
+    public $order = 'MonthSale.id DESC';
 }
-?>

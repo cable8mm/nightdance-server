@@ -1,7 +1,8 @@
 <?php
-class MainSlidesController extends AppController {
 
-	var $name = 'MainSlides';
-	var $scaffold;
+class MainSlidesController extends AppController
+{
+    public $name = 'MainSlides';
+
+    public $scaffold;
 }
-?>

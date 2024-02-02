@@ -1,7 +1,8 @@
 <?php
-class NdGenresController extends AppController {
 
-	var $name = 'NdGenres';
-	var $scaffold;
+class NdGenresController extends AppController
+{
+    public $name = 'NdGenres';
+
+    public $scaffold;
 }
-?>

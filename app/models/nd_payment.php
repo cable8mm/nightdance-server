@@ -1,10 +1,14 @@
 <?php
-class NdPayment extends AppModel {
-    var $name = 'NdPayment';
-	var $useTable = 'nd_payment';
-	var $primaryKey = 'payment_id';
-	var $order = 'NdPayment.payment_id DESC';
-	var $displayField = 'payment_name';
-}
 
-?>
+class NdPayment extends AppModel
+{
+    public $name = 'NdPayment';
+
+    public $useTable = 'nd_payment';
+
+    public $primaryKey = 'payment_id';
+
+    public $order = 'NdPayment.payment_id DESC';
+
+    public $displayField = 'payment_name';
+}

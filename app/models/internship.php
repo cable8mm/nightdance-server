@@ -1,7 +1,8 @@
 <?php
-class Internship extends AppModel {
 
-	var $name = 'Internship';
-	var $order = 'Internship.id DESC';
+class Internship extends AppModel
+{
+    public $name = 'Internship';
+
+    public $order = 'Internship.id DESC';
 }
-?>

@@ -1,10 +1,14 @@
 <?php
-class NdCategory extends AppModel {
-    var $name = 'NdCategory';
-	var $useTable = 'nd_category';
-	var $primaryKey = 'category_id';
-	var $order = 'NdCategory.category_id ASC';
-	var $displayField = 'category_name';
-}
 
-?>
+class NdCategory extends AppModel
+{
+    public $name = 'NdCategory';
+
+    public $useTable = 'nd_category';
+
+    public $primaryKey = 'category_id';
+
+    public $order = 'NdCategory.category_id ASC';
+
+    public $displayField = 'category_name';
+}

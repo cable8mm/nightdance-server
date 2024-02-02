@@ -1,4 +1,5 @@
 <?php
+
 /* SVN FILE: $Id: database.php.default 8004 2009-01-16 20:15:21Z gwoo $ */
 /**
  * This is core configuration file.
@@ -14,21 +15,22 @@
  * Redistributions of files must retain the above copyright notice.
  *
  * @filesource
+ *
  * @copyright     Copyright 2005-2008, Cake Software Foundation, Inc. (http://www.cakefoundation.org)
+ *
  * @link          http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
- * @package       cake
- * @subpackage    cake.app.config
  * @since         CakePHP(tm) v 0.2.9
+ *
  * @version       $Revision: 8004 $
+ *
  * @modifiedby    $LastChangedBy: gwoo $
+ *
  * @lastmodified  $Date: 2009-01-16 12:15:21 -0800 (Fri, 16 Jan 2009) $
+ *
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 /**
  * In this file you set up your database connection details.
- *
- * @package       cake
- * @subpackage    cake.config
  */
 /**
  * Database configuration class.
@@ -74,29 +76,27 @@
  * encoding =>
  * For MySQL, MySQLi, Postgres and DB2, specifies the character encoding to use when connecting to the
  * database.  Uses database default.
- *
  */
-class DATABASE_CONFIG {
+class DATABASE_CONFIG
+{
+    public $default = [
+        'driver' => 'mysqli',
+        'persistent' => false,
+        'host' => 'localhost',
+        'login' => 'external',
+        'password' => 'dkfkaltm',
+        'database' => 'nightdance',
+        'prefix' => '',
+        'encoding' => 'utf8',
+    ];
 
-	var $default = array(
-		'driver' => 'mysqli',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'external',
-		'password' => 'dkfkaltm',
-		'database' => 'nightdance',
-		'prefix' => '',
-		'encoding' => 'utf8'
-	);
-
-	var $test = array(
-		'driver' => 'mysqli',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
-		'prefix' => '',
-	);
+    public $test = [
+        'driver' => 'mysqli',
+        'persistent' => false,
+        'host' => 'localhost',
+        'login' => 'user',
+        'password' => 'password',
+        'database' => 'test_database_name',
+        'prefix' => '',
+    ];
 }
-?>

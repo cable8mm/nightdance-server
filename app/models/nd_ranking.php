@@ -1,13 +1,17 @@
 <?php
-class NdRanking extends AppModel {
-    var $name = 'NdRanking';
-	var $useTable = 'nd_ranking';
-	var $primaryKey = 'ranking_id';
-	var $order = 'NdRanking.ranking_id DESC';
 
-	var $belongsTo = array(
-		'NdRank'=>array('foreignKey'=>'rank_id'),
-		'NdClip'=>array('foreignKey'=>'clip_id')
-	);
+class NdRanking extends AppModel
+{
+    public $name = 'NdRanking';
+
+    public $useTable = 'nd_ranking';
+
+    public $primaryKey = 'ranking_id';
+
+    public $order = 'NdRanking.ranking_id DESC';
+
+    public $belongsTo = [
+        'NdRank' => ['foreignKey' => 'rank_id'],
+        'NdClip' => ['foreignKey' => 'clip_id'],
+    ];
 }
-?>

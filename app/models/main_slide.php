@@ -1,7 +1,8 @@
 <?php
-class MainSlide extends AppModel {
 
-	var $name = 'MainSlide';
-	var $order = 'MainSlide.id DESC';
+class MainSlide extends AppModel
+{
+    public $name = 'MainSlide';
+
+    public $order = 'MainSlide.id DESC';
 }
-?>

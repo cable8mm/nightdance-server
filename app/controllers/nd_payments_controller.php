@@ -1,7 +1,8 @@
 <?php
-class NdPaymentsController extends AppController {
 
-	var $name = 'NdPayments';
-	var $scaffold;
+class NdPaymentsController extends AppController
+{
+    public $name = 'NdPayments';
+
+    public $scaffold;
 }
-?>

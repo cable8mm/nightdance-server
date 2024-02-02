@@ -1,7 +1,8 @@
 <?php
-class NdFcategoriesController extends AppController {
 
-	var $name = 'NdFcategories';
-	var $scaffold;
+class NdFcategoriesController extends AppController
+{
+    public $name = 'NdFcategories';
+
+    public $scaffold;
 }
-?>

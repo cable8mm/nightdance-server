@@ -1,8 +1,12 @@
 <?php
-class NdUserAddition extends AppModel {
-    var $name = 'NdUserAddition';
-	var $useTable = 'nd_user_addtion';
-	var $primaryKey = 'user_id';
-	var $order = 'NdUserAddition.user_id DESC';
+
+class NdUserAddition extends AppModel
+{
+    public $name = 'NdUserAddition';
+
+    public $useTable = 'nd_user_addtion';
+
+    public $primaryKey = 'user_id';
+
+    public $order = 'NdUserAddition.user_id DESC';
 }
-?>

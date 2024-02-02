@@ -1,4 +1,4 @@
-;<?php die() ?>
+;<?php exit() ?>
 ; SVN FILE: $Id: acl.ini.php 7945 2008-12-19 02:16:01Z gwoo $
 ;/**
 ; * Short description for file.

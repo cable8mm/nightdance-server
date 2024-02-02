@@ -1,8 +1,12 @@
 <?php
-class NdClipAddition extends AppModel {
-    var $name = 'NdClipAddition';
-	var $useTable = 'nd_clip_addition';
-	var $primaryKey = 'clip_id';
-	var $order = 'NdClipAddition.clip_id DESC';
+
+class NdClipAddition extends AppModel
+{
+    public $name = 'NdClipAddition';
+
+    public $useTable = 'nd_clip_addition';
+
+    public $primaryKey = 'clip_id';
+
+    public $order = 'NdClipAddition.clip_id DESC';
 }
-?>

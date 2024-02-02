@@ -1,7 +1,8 @@
 <?php
-class NdRankingsController extends AppController {
 
-	var $name = 'NdRankings';
-	var $scaffold;
+class NdRankingsController extends AppController
+{
+    public $name = 'NdRankings';
+
+    public $scaffold;
 }
-?>

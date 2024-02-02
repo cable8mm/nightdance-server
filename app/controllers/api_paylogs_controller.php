@@ -1,7 +1,8 @@
 <?php
-class ApiPaylogsController extends AppController {
 
-	var $name = 'ApiPaylogs';
-	var $scaffold;
+class ApiPaylogsController extends AppController
+{
+    public $name = 'ApiPaylogs';
+
+    public $scaffold;
 }
-?>

@@ -1,10 +1,14 @@
 <?php
-class Coupon extends AppModel {
-    var $name = 'Coupon';
-	var $useTable = 'coupon';
-	var $primaryKey = 'coupon_id';
-	var $order = 'Coupon.coupon_id DESC';
-	var $displayField = 'coupon_name';
-}
 
-?>
+class Coupon extends AppModel
+{
+    public $name = 'Coupon';
+
+    public $useTable = 'coupon';
+
+    public $primaryKey = 'coupon_id';
+
+    public $order = 'Coupon.coupon_id DESC';
+
+    public $displayField = 'coupon_name';
+}

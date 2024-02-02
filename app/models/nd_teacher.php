@@ -1,13 +1,17 @@
 <?php
-class NdTeacher extends AppModel {
-    var $name = 'NdTeacher';
-	var $useTable = 'nd_teacher';
-	var $primaryKey = 'teacher_id';
-	var $order = 'NdTeacher.is_valid DESC, NdTeacher.teacher_id DESC';
-	var $belongsTo = array(
-		'TeacherPosition'=>array('type'=>'left'),
-		'Branch'=>array('type'=>'left')
-	);
-}
 
-?>
+class NdTeacher extends AppModel
+{
+    public $name = 'NdTeacher';
+
+    public $useTable = 'nd_teacher';
+
+    public $primaryKey = 'teacher_id';
+
+    public $order = 'NdTeacher.is_valid DESC, NdTeacher.teacher_id DESC';
+
+    public $belongsTo = [
+        'TeacherPosition' => ['type' => 'left'],
+        'Branch' => ['type' => 'left'],
+    ];
+}

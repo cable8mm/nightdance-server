@@ -1,10 +1,14 @@
 <?php
-class NdMgenre extends AppModel {
-    var $name = 'NdMgenre';
-	var $useTable = 'nd_mgenre';
-	var $primaryKey = 'mgenre_id';
-	var $order = 'NdMgenre.mgenre_id ASC';
-	var $displayField = 'mgenre_name';
-}
 
-?>
+class NdMgenre extends AppModel
+{
+    public $name = 'NdMgenre';
+
+    public $useTable = 'nd_mgenre';
+
+    public $primaryKey = 'mgenre_id';
+
+    public $order = 'NdMgenre.mgenre_id ASC';
+
+    public $displayField = 'mgenre_name';
+}

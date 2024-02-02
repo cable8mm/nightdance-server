@@ -1,8 +1,12 @@
 <?php
-class NdRank extends AppModel {
-    var $name = 'NdRank';
-	var $useTable = 'nd_rank';
-	var $primaryKey = 'rank_id';
-	var $order = 'NdRank.rank_id DESC';
+
+class NdRank extends AppModel
+{
+    public $name = 'NdRank';
+
+    public $useTable = 'nd_rank';
+
+    public $primaryKey = 'rank_id';
+
+    public $order = 'NdRank.rank_id DESC';
 }
-?>

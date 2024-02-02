@@ -1,7 +1,8 @@
 <?php
-class StaffsController extends AppController {
 
-	var $name = 'Staffs';
-	var $scaffold;
+class StaffsController extends AppController
+{
+    public $name = 'Staffs';
+
+    public $scaffold;
 }
-?>

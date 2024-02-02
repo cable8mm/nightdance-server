@@ -1,7 +1,8 @@
 <?php
-class User extends AppModel {
-    var $name = 'User';
-	var $belongsTo = array('Group');
-}
 
-?>
+class User extends AppModel
+{
+    public $name = 'User';
+
+    public $belongsTo = ['Group'];
+}
