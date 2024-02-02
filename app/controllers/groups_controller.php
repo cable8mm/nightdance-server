@@ -1,7 +1,8 @@
 <?php
-class GroupsController extends AppController {
 
-	var $name = 'Groups';
-	var $scaffold;
+class GroupsController extends AppController
+{
+    public $name = 'Groups';
+
+    public $scaffold;
 }
-?>

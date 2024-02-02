@@ -1,7 +1,8 @@
 <?php
-class Staff extends AppModel {
-    var $name = 'Staff';
-	var $belongsTo = array('StaffPosition');
-}
 
-?>
+class Staff extends AppModel
+{
+    public $name = 'Staff';
+
+    public $belongsTo = ['StaffPosition'];
+}

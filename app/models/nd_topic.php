@@ -1,13 +1,18 @@
 <?php
-class NdTopic extends AppModel {
-    var $name = 'NdTopic';
-	var $useTable = 'nd_topic';
-	var $primaryKey = 'topic_id';
-	var $order = 'NdTopic.topic_id DESC';
-	var $displayField = 'topic_title';
 
-	var $belongsTo = array('NdForum' => array('foreignKey'=>'forum_id'));
-	var $hasMany = array('NdPost' => array('foreignKey'=>'topic_id'));
+class NdTopic extends AppModel
+{
+    public $name = 'NdTopic';
+
+    public $useTable = 'nd_topic';
+
+    public $primaryKey = 'topic_id';
+
+    public $order = 'NdTopic.topic_id DESC';
+
+    public $displayField = 'topic_title';
+
+    public $belongsTo = ['NdForum' => ['foreignKey' => 'forum_id']];
+
+    public $hasMany = ['NdPost' => ['foreignKey' => 'topic_id']];
 }
-
-?>

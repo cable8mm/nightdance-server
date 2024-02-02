@@ -1,20 +1,24 @@
 <?php
-class UsersController extends AppController {
 
-	var $name = 'Users';
-	var $scaffold;
+class UsersController extends AppController
+{
+    public $name = 'Users';
 
-	function beforeFilter() {
-		$this->Auth->allow('add');
-	}
+    public $scaffold;
 
-	function login() {
-	    //Auth Magic
-	    $this->layout = 'default';
-	}
-	 
-	function logout() {
-	    //Leave empty for now.
-	}
+    public function beforeFilter()
+    {
+        $this->Auth->allow('add');
+    }
+
+    public function login()
+    {
+        //Auth Magic
+        $this->layout = 'default';
+    }
+
+    public function logout()
+    {
+        //Leave empty for now.
+    }
 }
-?>

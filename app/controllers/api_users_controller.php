@@ -1,7 +1,8 @@
 <?php
-class ApiUsersController extends AppController {
 
-	var $name = 'ApiUsers';
-	var $scaffold;
+class ApiUsersController extends AppController
+{
+    public $name = 'ApiUsers';
+
+    public $scaffold;
 }
-?>

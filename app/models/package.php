@@ -1,7 +1,8 @@
 <?php
-class Package extends AppModel {
 
-	var $name = 'Package';
-	var $order = 'Package.id DESC';
+class Package extends AppModel
+{
+    public $name = 'Package';
+
+    public $order = 'Package.id DESC';
 }
-?>

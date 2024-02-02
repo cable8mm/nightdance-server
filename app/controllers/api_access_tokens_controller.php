@@ -1,7 +1,8 @@
 <?php
-class ApiAccessTokensController extends AppController {
 
-	var $name = 'ApiAccessTokens';
-	var $scaffold;
+class ApiAccessTokensController extends AppController
+{
+    public $name = 'ApiAccessTokens';
+
+    public $scaffold;
 }
-?>

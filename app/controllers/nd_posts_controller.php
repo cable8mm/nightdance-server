@@ -1,7 +1,8 @@
 <?php
-class NdPostsController extends AppController {
 
-	var $name = 'NdPosts';
-	var $scaffold;
+class NdPostsController extends AppController
+{
+    public $name = 'NdPosts';
+
+    public $scaffold;
 }
-?>

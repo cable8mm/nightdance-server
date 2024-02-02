@@ -1,7 +1,8 @@
 <?php
-class ClipCategoriesController extends AppController {
 
-	var $name = 'ClipCategories';
-	var $scaffold;
+class ClipCategoriesController extends AppController
+{
+    public $name = 'ClipCategories';
+
+    public $scaffold;
 }
-?>

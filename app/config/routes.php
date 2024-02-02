@@ -1,4 +1,5 @@
 <?php
+
 /* SVN FILE: $Id: routes.php 7945 2008-12-19 02:16:01Z gwoo $ */
 /**
  * Short description for file.
@@ -16,14 +17,18 @@
  * Redistributions of files must retain the above copyright notice.
  *
  * @filesource
+ *
  * @copyright     Copyright 2005-2008, Cake Software Foundation, Inc. (http://www.cakefoundation.org)
+ *
  * @link          http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
- * @package       cake
- * @subpackage    cake.app.config
  * @since         CakePHP(tm) v 0.2.9
+ *
  * @version       $Revision: 7945 $
+ *
  * @modifiedby    $LastChangedBy: gwoo $
+ *
  * @lastmodified  $Date: 2008-12-18 18:16:01 -0800 (Thu, 18 Dec 2008) $
+ *
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 /**
@@ -31,9 +36,8 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/views/pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+Router::connect('/', ['controller' => 'pages', 'action' => 'display', 'home']);
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
-?>
+Router::connect('/pages/*', ['controller' => 'pages', 'action' => 'display']);

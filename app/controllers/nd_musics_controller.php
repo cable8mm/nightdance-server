@@ -1,7 +1,8 @@
 <?php
-class NdMusicsController extends AppController {
 
-	var $name = 'NdMusics';
-	var $scaffold;
+class NdMusicsController extends AppController
+{
+    public $name = 'NdMusics';
+
+    public $scaffold;
 }
-?>

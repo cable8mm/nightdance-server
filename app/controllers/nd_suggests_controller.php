@@ -1,14 +1,16 @@
 <?php
-class NdSuggestsController extends AppController {
 
-	var $name = 'NdSuggests';
-	var $scaffold;
+class NdSuggestsController extends AppController
+{
+    public $name = 'NdSuggests';
 
-	public function beforeFilter() {
-		if($this->action == 'index') {
-			unset($this->NdSuggest->_schema['suggest_text']);
-		}
-		parent::beforeFilter();
-	}
+    public $scaffold;
+
+    public function beforeFilter()
+    {
+        if ($this->action == 'index') {
+            unset($this->NdSuggest->_schema['suggest_text']);
+        }
+        parent::beforeFilter();
+    }
 }
-?>

@@ -1,7 +1,8 @@
 <?php
-class ApiEventsController extends AppController {
 
-	var $name = 'ApiEvents';
-	var $scaffold;
+class ApiEventsController extends AppController
+{
+    public $name = 'ApiEvents';
+
+    public $scaffold;
 }
-?>

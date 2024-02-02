@@ -1,7 +1,8 @@
 <?php
-class CouponIssuesController extends AppController {
 
-	var $name = 'CouponIssues';
-	var $scaffold;
+class CouponIssuesController extends AppController
+{
+    public $name = 'CouponIssues';
+
+    public $scaffold;
 }
-?>
