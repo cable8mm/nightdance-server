@@ -1,0 +1,36 @@
+{
+	"name": "cable8mm/cakecake",
+	"description": "CakePHP 2 Admin Panel to supports PHP 8",
+	"type": "library",
+	"keywords": [
+		"framework"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sam Lee",
+			"email": "cable8mm@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^8.0",
+		"cakephp/cakephp": "dev-master as 2.10.24"
+	},
+	"config": {
+		"vendor-dir": "vendors/",
+		"process-timeout": 0
+	},
+	"bin": [
+		"lib/Cake/Console/cake"
+	],
+	"scripts": {
+		"cake": "cp -r vendors/cakephp/cakephp/lib/Cake lib"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/kamilwylegala/cakephp2-php8"
+		}
+	]
+}
